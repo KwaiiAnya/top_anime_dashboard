@@ -163,7 +163,7 @@ if filtered_df.shape[0]:
         height=700
     )
     # with col1:
-    st.write(genre_fig, use_container_width=True)
+    st.write(genre_fig)
 
     theme_counts = get_category_count_from_str(
         filtered_df[filtered_df['themes'] != 'Others']['themes'])
